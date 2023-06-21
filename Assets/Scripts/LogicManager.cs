@@ -61,6 +61,7 @@ public class LogicManager : MonoBehaviour
     public void backToMenu()
     {
         Time.timeScale = 1f;
+		isPaused = false;
         SceneManager.LoadScene("Menu");
     }
 }
